@@ -12,7 +12,12 @@ CryptoMonkeys is an ERC721 token platform, where you can mint, breed, buy and se
   - [Installation](#installation)
   - [Deploy locally](#deploy-locally)  
 - [Using the NFT platform](#using-the-nft-platform)
-  - [CryptoMonkey NFT attributes](#cryptomonkey-nft-attributes)    
+  - [Navigation bar](#navigation-bar)
+  - [NFT Creation](#nft-creation)
+  - [Gallery](#gallery)
+  - [Multiply](#multiply)
+  - [Market](#market)
+- [CryptoMonkey NFT attributes](#cryptomonkey-nft-attributes)    
     - [DNA](#dna)
     - [Generation](#Generation)
     - [Randomness](#randomness)    
@@ -86,9 +91,9 @@ Note: The user will need the ERC20 BananaToken to pay for the NFT creation. To g
 ### Gallery
 To check out all their CryptoMonkey NFTs, the user can navigate to the gallery, where they are displayed.
 
-### Multiply / Breeding
+### Multiply
 
-Here a user can combine two CryptoMonkey NFTs that they own to create a third “child” CryptoMonkey NFT. The new NFT’s DNA will consist of randomly combined traits from his “parents”, as well as one randomly generated trait, that is new and different. His generation will depend on his parents’ generations. (To find out more about this mechanism you can check the [_calcGeneration function](https://github.com/ctrl030/CryptoMonkeys-V2/blob/main/contracts/MonkeyContract.sol))
+Here a user can combine two CryptoMonkey NFTs that they own to create a third “child” CryptoMonkey NFT. The new NFT’s DNA will consist of randomly combined traits from their “parents”, as well as one randomly generated trait, that is new and different. Their generation will depend on their parents’ generations. (To find out more about this mechanism you can check the [_calcGeneration function](https://github.com/ctrl030/CryptoMonkeys-V2/blob/main/contracts/MonkeyContract.sol))
 
 Note: The user will need the ERC20 BananaToken to pay for the breeding of NFTs. To get some of these, they can use the free faucet through the button “Get Bananas” and confirm via Metamask.
 
@@ -100,7 +105,7 @@ Here a user will find all open sell offers (excluding their own, see “My Monke
 
 - Sell Monkeys
 
-To sell CryptoMonkey NFTs via the market, a user will first have to give the MonkeyMarketplace smart contract operator status, so that the contract can handle sell offers and transfers on his behalf. After using the respective button “Allow Market to handle NFTs” and confirming via Metamask, the user can now create offers and sell his NFTs in the marketplace
+To sell CryptoMonkey NFTs via the market, a user will first have to give the MonkeyMarketplace smart contract operator status, so that the contract can handle sell offers and transfers on their behalf. After using the respective button “Allow Market to handle NFTs” and confirming via Metamask, the user can now create offers and sell his NFTs in the marketplace
 
  - My Monkeys on Sale
 
