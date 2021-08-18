@@ -19,9 +19,8 @@ CryptoMonkeys is an ERC721 token platform, where you can mint, breed, buy and se
   - [Market](#market)
 - [CryptoMonkey NFT attributes](#cryptomonkey-nft-attributes)    
     - [DNA](#dna)
-    - [Generation](#Generation)
-    - [Randomness](#randomness)    
-- [Images](#images)
+    - [Generation](#generation)
+    - [Randomness](#randomness)  
 
 Using the NFT platform
 
@@ -65,6 +64,15 @@ Contracts are written in Solidity.
 
 
 ## Setup
+
+### Installation
+
+You can follow these links to install the needed software:
+
+- [Node.js](https://nodejs.org/en/)
+- [Metamask](https://metamask.io/)
+- [Hardhat](https://hardhat.org/getting-started/#installation)
+- [Ganache](https://www.trufflesuite.com/docs/ganache/quickstart)
 
 ### Deploy locally 
 
@@ -111,3 +119,16 @@ To sell CryptoMonkey NFTs via the market, a user will first have to give the Mon
 
 This will display all the user’s CryptoMonkey NFTs that are on sale at the moment. Offers can be canceled/removed by using the menu below the navigation bar and confirming via Metamask.
 
+## CryptoMonkey NFT attributes
+
+### DNA
+
+Every CryptoMonkey NFT includes a 16-digit DNA-string, which encodes the NFTs different traits: different coloring, animations and one secret attribute.
+
+### Generation
+
+Every CryptoMonkey NFT has a generation, referring to how and when it was created. There is a hard limit of 12 Monkeys that are part of the generation 0, which at this point can only be created by the platform / owner. Demo Monkeys have generation 99, bred monkeys' generations depend on their parents' generation.
+
+### Randomness
+
+Randomness is simulated / pseudo-randomness at this point, mostly a placeholder for randomness-getting-functions, for ex. the Chainlink VRF.
